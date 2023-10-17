@@ -1,0 +1,34 @@
+body{
+    
+    background-image: url("https://img.freepik.com/premium-vector/monster-line-art-doodle-pattern-design-vector_90573-639.jpg");
+}
+
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 35px !important;
+    font-family: 'Tilt Neon', sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.474);
+}
+
+.note{
+    font-size: 20px !important;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+#footer{
+    width: 100%;
+    line-height: 2;
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: rgb(179, 124, 252);
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.474);;
+    border: 5px  solid black;
+    border-radius: 20px;
+    margin-top: 200px;
+}
