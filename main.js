@@ -1,3 +1,5 @@
+difference = 0;
+
 function preload(){
 
 }
@@ -19,9 +21,16 @@ function modelLoaded(){
   function gotPoses(results){
     if(results.length>0){
       console.log(results);
-    }
+      rightWristX = results[0].pose.rightWrist.x;
+      leftWristX = results[0].pose.leftWrist.x;
+      difference = floor(leftWristX - rightWristX);
+
+      }
   }
 
 function draw(){
     background("orange");
+    textSize(difference);
+    fill("blue");
+    text("Aarav", 30, 300);
 }
